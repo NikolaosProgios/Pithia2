@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="Submit_Button" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="NewVathmos_Label" min="-2" max="-2" attributes="0"/>
+                          <Component id="Mathima_Label" min="-2" max="-2" attributes="0"/>
+                          <Component id="AM_Foititi_Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Arxikos_Vathmos_Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Mathima_ComboBox" max="32767" attributes="0"/>
+                          <Component id="NewVathmos_TextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="SHOW_Arxikos_Vathmos_Label" max="32767" attributes="0"/>
+                          <Component id="AM_Foititi_TextBox" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Mathima_Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Mathima_ComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AM_Foititi_Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AM_Foititi_TextBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Arxikos_Vathmos_Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SHOW_Arxikos_Vathmos_Label" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NewVathmos_Label" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="NewVathmos_TextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Component id="Submit_Button" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Mathima_Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x39c;&#x3ac;&#x3b8;&#x3b7;&#x3bc;&#x3b1;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NewVathmos_Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x39d;&#x3ad;&#x3b1; &#x392;&#x3b1;&#x3b8;&#x3bc;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b1;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="NewVathmos_TextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NewVathmos_TextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Mathima_ComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="87">
+            <StringItem index="0" value="&#x39c;&#x3b1;&#x3b8;&#x3b7;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3ba;&#x3ac; &#x399;"/>
+            <StringItem index="1" value="&#x394;&#x3bf;&#x3bc;&#x3b7;&#x3bc;&#x3ad;&#x3bd;&#x3bf;&#x3c2; &#x3a0;&#x3c1;&#x3bf;&#x3b3;&#x3c1;&#x3b1;&#x3bc;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3c3;&#x3bc;&#x3cc;&#x3c2;"/>
+            <StringItem index="2" value="&#x395;&#x3b9;&#x3c3;&#x3b1;&#x3b3;&#x3c9;&#x3b3;&#x3ae; &#x3c3;&#x3c4;&#x3b7;&#x3bd; &#x395;&#x3c0;&#x3b9;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b7; &#x3c4;&#x3c9;&#x3bd; &#x3a5;&#x3c0;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3ce;&#x3bd;"/>
+            <StringItem index="3" value="&#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ae; &#x3a6;&#x3c5;&#x3c3;&#x3b9;&#x3ba;&#x3ae;"/>
+            <StringItem index="4" value="&#x39a;&#x3c5;&#x3ba;&#x3bb;&#x3ce;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x3a3;&#x3c5;&#x3bd;&#x3b5;&#x3c7;&#x3bf;&#x3cd;&#x3c2; &#x3a1;&#x3b5;&#x3cd;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2;"/>
+            <StringItem index="5" value="&#x39c;&#x3b1;&#x3b8;&#x3b7;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3ba;&#x3ac; &#x399;&#x399;"/>
+            <StringItem index="6" value="&#x39c;&#x3b5;&#x3c4;&#x3c1;&#x3ae;&#x3c3;&#x3b5;&#x3b9;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x39a;&#x3c5;&#x3ba;&#x3bb;&#x3ce;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x395;&#x3bd;&#x3b1;&#x3bb;&#x3bb;&#x3b1;&#x3c3;&#x3c3;&#x3cc;&#x3bc;&#x3b5;&#x3bd;&#x3bf;&#x3c5; &#x3a1;&#x3b5;&#x3cd;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2;"/>
+            <StringItem index="7" value="&#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3b9;&#x3ba;&#x3ae; &#x3a3;&#x3c5;&#x3b3;&#x3b3;&#x3c1;&#x3b1;&#x3c6;&#x3ae;, &#x3a0;&#x3b1;&#x3c1;&#x3bf;&#x3c5;&#x3c3;&#x3af;&#x3b1;&#x3c3;&#x3b7; &#x3ba;&#x3b1;&#x3b9; &#x39f;&#x3c1;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b1; &#x39e;&#x3ad;&#x3bd;&#x3b7;&#x3c2; &#x393;&#x3bb;&#x3ce;&#x3c3;&#x3c3;&#x3b1;&#x3c2;"/>
+            <StringItem index="8" value="&#x3a3;&#x3c7;&#x3b5;&#x3b4;&#x3af;&#x3b1;&#x3c3;&#x3b7; &#x3a8;&#x3b7;&#x3c6;&#x3b9;&#x3b1;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="9" value="&#x391;&#x3bd;&#x3c4;&#x3b9;&#x3ba;&#x3b5;&#x3b9;&#x3bc;&#x3b5;&#x3bd;&#x3bf;&#x3c3;&#x3c4;&#x3c1;&#x3b5;&#x3c6;&#x3ae;&#x3c2; &#x3a0;&#x3c1;&#x3bf;&#x3b3;&#x3c1;&#x3b1;&#x3bc;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3c3;&#x3bc;&#x3cc;&#x3c2;"/>
+            <StringItem index="10" value="&#x398;&#x3b5;&#x3c9;&#x3c1;&#x3af;&#x3b1; &#x3a0;&#x3b9;&#x3b8;&#x3b1;&#x3bd;&#x3bf;&#x3c4;&#x3ae;&#x3c4;&#x3c9;&#x3bd; &#x3ba;&#x3b1;&#x3b9; &#x3a3;&#x3c4;&#x3b1;&#x3c4;&#x3b9;&#x3c3;&#x3c4;&#x3b9;&#x3ba;&#x3ae;"/>
+            <StringItem index="11" value="&#x39c;&#x3b1;&#x3b8;&#x3b7;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3ba;&#x3ac; &#x399;&#x399;I"/>
+            <StringItem index="12" value="&#x395;&#x3c0;&#x3b5;&#x3be;&#x3b5;&#x3c1;&#x3b3;&#x3b1;&#x3c3;&#x3af;&#x3b1; &#x3a3;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2;"/>
+            <StringItem index="13" value="&#x393;&#x3bb;&#x3ce;&#x3c3;&#x3c3;&#x3b5;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b5;&#x3c2; &#x399;&#x3c3;&#x3c4;&#x3bf;&#x3cd;"/>
+            <StringItem index="14" value="&#x394;&#x3bf;&#x3bc;&#x3ad;&#x3c2; &#x394;&#x3b5;&#x3b4;&#x3bf;&#x3bc;&#x3ad;&#x3bd;&#x3c9;&#x3bd; &#x3ba;&#x3b1;&#x3b9; &#x391;&#x3bd;&#x3ac;&#x3bb;&#x3c5;&#x3c3;&#x3b7; &#x391;&#x3bb;&#x3b3;&#x3bf;&#x3c1;&#x3af;&#x3b8;&#x3bc;&#x3c9;&#x3bd;"/>
+            <StringItem index="15" value="&#x39f;&#x3c1;&#x3b3;&#x3ac;&#x3bd;&#x3c9;&#x3c3;&#x3b7; &#x3ba;&#x3b1;&#x3b9; &#x391;&#x3c1;&#x3c7;&#x3b9;&#x3c4;&#x3b5;&#x3ba;&#x3c4;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ae; &#x3a5;&#x3c0;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3b9;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="16" value="&#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x394;&#x3b9;&#x3b1;&#x3c7;&#x3b5;&#x3af;&#x3c1;&#x3b9;&#x3c3;&#x3b7;&#x3c2; &#x392;&#x3ac;&#x3c3;&#x3b5;&#x3c9;&#x3bd; &#x394;&#x3b5;&#x3b4;&#x3bf;&#x3bc;&#x3ad;&#x3bd;&#x3c9;&#x3bd;"/>
+            <StringItem index="17" value="&#x3a4;&#x3b7;&#x3bb;&#x3b5;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3b9;&#x3b1;&#x3ba;&#x3ac; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1;"/>
+            <StringItem index="18" value="&#x395;&#x3b9;&#x3c3;&#x3b1;&#x3b3;&#x3c9;&#x3b3;&#x3ae; &#x3c3;&#x3c4;&#x3b1; &#x39b;&#x3b5;&#x3b9;&#x3c4;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3b9;&#x3ba;&#x3ac; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1;"/>
+            <StringItem index="19" value="&#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ac; &#x39a;&#x3c5;&#x3ba;&#x3bb;&#x3ce;&#x3bc;&#x3b1;&#x3c4;&#x3b1;"/>
+            <StringItem index="20" value="&#x391;&#x3c3;&#x3cd;&#x3c1;&#x3bc;&#x3b1;&#x3c4;&#x3b5;&#x3c2; &#x395;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3af;&#x3b5;&#x3c2;"/>
+            <StringItem index="21" value="&#x39c;&#x3b9;&#x3ba;&#x3c1;&#x3bf;&#x3b5;&#x3bb;&#x3b5;&#x3b3;&#x3ba;&#x3c4;&#x3ad;&#x3c2;"/>
+            <StringItem index="22" value="&#x3a3;&#x3c7;&#x3b5;&#x3b4;&#x3af;&#x3b1;&#x3c3;&#x3b7; &#x39b;&#x3b5;&#x3b9;&#x3c4;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3b9;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="23" value="&#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x394;&#x3b9;&#x3b1;&#x3c4;&#x3ac;&#x3be;&#x3b5;&#x3b9;&#x3c2;"/>
+            <StringItem index="24" value="&#x391;&#x3bb;&#x3bb;&#x3b7;&#x3bb;&#x3b5;&#x3c0;&#x3af;&#x3b4;&#x3c1;&#x3b1;&#x3c3;&#x3b7; &#x391;&#x3bd;&#x3b8;&#x3c1;&#x3ce;&#x3c0;&#x3bf;&#x3c5;-&#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3ae;&#x3c2;"/>
+            <StringItem index="25" value="&#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3b7;&#x3c4;&#x3ae; &#x39d;&#x3bf;&#x3b7;&#x3bc;&#x3bf;&#x3c3;&#x3cd;&#x3bd;&#x3b7;"/>
+            <StringItem index="26" value="&#x395;&#x3bd;&#x3c3;&#x3c9;&#x3bc;&#x3b1;&#x3c4;&#x3c9;&#x3bc;&#x3ad;&#x3bd;&#x3b1; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1;"/>
+            <StringItem index="27" value="&#x3a3;&#x3cd;&#x3bd;&#x3b8;&#x3b5;&#x3c3;&#x3b7; &#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ce;&#x3bd; &#x39a;&#x3c5;&#x3ba;&#x3bb;&#x3c9;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="28" value="&#x39a;&#x3b2;&#x3b1;&#x3bd;&#x3c4;&#x3b9;&#x3ba;&#x3ae; &#x3a5;&#x3c0;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3b9;&#x3ba;&#x3ae;"/>
+            <StringItem index="29" value="&#x39c;&#x3b5;&#x3b8;&#x3bf;&#x3b4;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b5;&#x3c2; &#x3a3;&#x3c7;&#x3b5;&#x3b4;&#x3b9;&#x3b1;&#x3c3;&#x3bc;&#x3bf;&#x3cd; &#x39c;&#x3b9;&#x3ba;&#x3c1;&#x3bf;&#x3b7;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ce;&#x3bd; &#x39a;&#x3c5;&#x3ba;&#x3bb;&#x3c9;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="30" value="&#x39c;&#x3b9;&#x3ba;&#x3c1;&#x3bf;&#x3ba;&#x3c5;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3ba;&#x3ae; &#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b1; &#x3ba;&#x3b1;&#x3b9; &#x3a4;&#x3b7;&#x3bb;&#x3b5;&#x3c0;&#x3b9;&#x3c3;&#x3ba;&#x3cc;&#x3c0;&#x3b7;&#x3c3;&#x3b7;"/>
+            <StringItem index="31" value="&#x39f;&#x3c0;&#x3c4;&#x3bf;&#x3b7;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ae; &#x3ba;&#x3b1;&#x3b9; &#x39f;&#x3c0;&#x3c4;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x395;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3af;&#x3b5;&#x3c2;"/>
+            <StringItem index="32" value="&#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x39c;&#x3ad;&#x3c3;&#x3c9;&#x3bd; &#x39c;&#x3b1;&#x3b6;&#x3b9;&#x3ba;&#x3ae;&#x3c2; &#x395;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3af;&#x3b1;&#x3c2;"/>
+            <StringItem index="33" value="&#x391;&#x3c1;&#x3b9;&#x3b8;&#x3bc;&#x3b7;&#x3c4;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x39c;&#x3ad;&#x3b8;&#x3bf;&#x3b4;&#x3bf;&#x3b9;"/>
+            <StringItem index="34" value="&#x3a0;&#x3c1;&#x3bf;&#x3b7;&#x3b3;&#x3bc;&#x3ad;&#x3bd;&#x3b1; &#x398;&#x3ad;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x391;&#x3bb;&#x3bb;&#x3b7;&#x3bb;&#x3b5;&#x3c0;&#x3af;&#x3b4;&#x3c1;&#x3b1;&#x3c3;&#x3b7;&#x3c2; (&#x3a0;&#x3c1;&#x3bf;&#x3b3;&#x3c1;&#x3b1;&#x3bc;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3c3;&#x3bc;&#x3cc;&#x3c2; &#x39a;&#x3b9;&#x3bd;&#x3b7;&#x3c4;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3ba;&#x3b5;&#x3c5;&#x3ce;&#x3bd;)"/>
+            <StringItem index="35" value="&#x394;&#x3b9;&#x3bf;&#x3af;&#x3ba;&#x3b7;&#x3c3;&#x3b7; &#x388;&#x3c1;&#x3b3;&#x3c9;&#x3bd;"/>
+            <StringItem index="36" value="&#x394;&#x3af;&#x3ba;&#x3c4;&#x3c5;&#x3b1; &#x3a5;&#x3c0;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3ce;&#x3bd;"/>
+            <StringItem index="37" value="&#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ac; &#x399;&#x3c3;&#x3c7;&#x3cd;&#x3bf;&#x3c2;"/>
+            <StringItem index="38" value="&#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x391;&#x3c5;&#x3c4;&#x3bf;&#x3bc;&#x3ac;&#x3c4;&#x3bf;&#x3c5; &#x395;&#x3bb;&#x3ad;&#x3b3;&#x3c7;&#x3bf;&#x3c5;"/>
+            <StringItem index="39" value="&#x391;&#x3b9;&#x3c3;&#x3b8;&#x3b7;&#x3c4;&#x3ae;&#x3c1;&#x3b9;&#x3b1; &#x3ba;&#x3b1;&#x3b9; &#x395;&#x3c0;&#x3b5;&#x3be;&#x3b5;&#x3c1;&#x3b3;&#x3b1;&#x3c3;&#x3af;&#x3b1; &#x39c;&#x3b5;&#x3c4;&#x3c1;&#x3ae;&#x3c3;&#x3b5;&#x3c9;&#x3bd;"/>
+            <StringItem index="40" value="&#x3a0;&#x3c1;&#x3bf;&#x3b3;&#x3c1;&#x3b1;&#x3bc;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3b6;&#x3cc;&#x3bc;&#x3b5;&#x3bd;&#x3bf;&#x3b9; &#x39b;&#x3bf;&#x3b3;&#x3b9;&#x3ba;&#x3bf;&#x3af; &#x395;&#x3bb;&#x3b5;&#x3b3;&#x3ba;&#x3c4;&#x3ad;&#x3c2;"/>
+            <StringItem index="41" value="&#x3a3;&#x3c7;&#x3b5;&#x3b4;&#x3af;&#x3b1;&#x3c3;&#x3b7; &#x395;&#x3c0;&#x3b1;&#x3bd;&#x3b1;&#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3b4;&#x3b9;&#x3bf;&#x3c1;&#x3b9;&#x3b6;&#x3cc;&#x3bc;&#x3b5;&#x3bd;&#x3c9;&#x3bd; &#x3a8;&#x3b7;&#x3c6;&#x3b9;&#x3b1;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd; (FPGA)"/>
+            <StringItem index="42" value="&#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b5;&#x3c2; &#x389;&#x3c7;&#x3bf;&#x3c5; &#x3ba;&#x3b1;&#x3b9; &#x395;&#x3b9;&#x3ba;&#x3cc;&#x3bd;&#x3b1;&#x3c2;"/>
+            <StringItem index="43" value="&#x395;&#x3b9;&#x3c3;&#x3b1;&#x3b3;&#x3c9;&#x3b3;&#x3ae; &#x3c3;&#x3c4;&#x3b7;&#x3bd; &#x391;&#x3bd;&#x3b1;&#x3bb;&#x3c5;&#x3c4;&#x3b9;&#x3ba;&#x3ae; &#x3c4;&#x3c9;&#x3bd; &#x394;&#x3b5;&#x3b4;&#x3bf;&#x3bc;&#x3ad;&#x3bd;&#x3c9;&#x3bd;"/>
+            <StringItem index="44" value="&#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3b9;&#x3ba;&#x3ae; &#x39b;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3bc;&#x3b9;&#x3ba;&#x3bf;&#x3cd;"/>
+            <StringItem index="45" value="&#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b1; &#x392;&#x3ac;&#x3c3;&#x3b5;&#x3c9;&#x3bd; &#x394;&#x3b5;&#x3b4;&#x3bf;&#x3bc;&#x3ad;&#x3bd;&#x3c9;&#x3bd;"/>
+            <StringItem index="46" value="&#x3a0;&#x3c1;&#x3bf;&#x3b7;&#x3b3;&#x3bc;&#x3ad;&#x3bd;&#x3b5;&#x3c2; &#x391;&#x3c1;&#x3c7;&#x3b9;&#x3c4;&#x3b5;&#x3ba;&#x3c4;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x3a5;&#x3c0;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3ce;&#x3bd; &#x3ba;&#x3b1;&#x3b9; &#x3a0;&#x3c1;&#x3bf;&#x3b3;&#x3c1;&#x3b1;&#x3bc;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3c3;&#x3bc;&#x3cc;&#x3c2; &#x3a0;&#x3b1;&#x3c1;&#x3ac;&#x3bb;&#x3bb;&#x3b7;&#x3bb;&#x3c9;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="47" value="&#x391;&#x3c3;&#x3c6;&#x3ac;&#x3bb;&#x3b5;&#x3b9;&#x3b1; &#x3a0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3b9;&#x3b1;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="48" value="&#x391;&#x3c1;&#x3c7;&#x3ad;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x39c;&#x3ad;&#x3b8;&#x3bf;&#x3b4;&#x3bf;&#x3b9; &#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3b9;&#x3ba;&#x3ae;&#x3c2; &#x39c;&#x3ac;&#x3b8;&#x3b7;&#x3c3;&#x3b7;&#x3c2;"/>
+            <StringItem index="49" value="&#x394;&#x3b9;&#x3b1;&#x3b4;&#x3af;&#x3ba;&#x3c4;&#x3c5;&#x3bf; &#x3c4;&#x3c9;&#x3bd; &#x3a0;&#x3c1;&#x3b1;&#x3b3;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="50" value="&#x395;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ad;&#x3c2; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd; &#x391;&#x3c5;&#x3c4;&#x3bf;&#x3bc;&#x3ac;&#x3c4;&#x3bf;&#x3c5; &#x395;&#x3bb;&#x3ad;&#x3b3;&#x3c7;&#x3bf;&#x3c5;"/>
+            <StringItem index="51" value="&#x39c;&#x3b5;&#x3c4;&#x3b1;&#x3c4;&#x3c1;&#x3bf;&#x3c0;&#x3b5;&#x3af;&#x3c2; &#x399;&#x3c3;&#x3c7;&#x3cd;&#x3bf;&#x3c2;"/>
+            <StringItem index="52" value="&#x39c;&#x3b9;&#x3ba;&#x3c1;&#x3bf;&#x3b7;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ae;"/>
+            <StringItem index="53" value="&#x395;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ad;&#x3c2; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd; &#x399;&#x3c3;&#x3c7;&#x3cd;&#x3bf;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x391;&#x3a0;&#x395;"/>
+            <StringItem index="54" value="&#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3ba;&#x3af;&#x3bd;&#x3b7;&#x3c3;&#x3b7; &#x3ba;&#x3b1;&#x3b9; &#x395;&#x3c5;&#x3c6;&#x3c5;&#x3ae; &#x394;&#x3af;&#x3ba;&#x3c4;&#x3c5;&#x3b1;"/>
+            <StringItem index="55" value="&#x391;&#x3c3;&#x3cd;&#x3c1;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x394;&#x3af;&#x3ba;&#x3c4;&#x3c5;&#x3b1;"/>
+            <StringItem index="56" value="&#x395;&#x3b9;&#x3b4;&#x3b9;&#x3ba;&#x3ac; &#x398;&#x3ad;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x394;&#x3b9;&#x3ba;&#x3c4;&#x3cd;&#x3c9;&#x3bd; (CCNA) 1"/>
+            <StringItem index="57" value="&#x3a0;&#x3c1;&#x3bf;&#x3b7;&#x3b3;&#x3bc;&#x3ad;&#x3bd;&#x3b1; &#x398;&#x3ad;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x394;&#x3b9;&#x3ba;&#x3c4;&#x3cd;&#x3c9;&#x3bd;"/>
+            <StringItem index="58" value="&#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x39a;&#x3b9;&#x3bd;&#x3b7;&#x3c4;&#x3ce;&#x3bd; &#x395;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3b9;&#x3ce;&#x3bd;"/>
+            <StringItem index="59" value="&#x395;&#x3bb;&#x3b5;&#x3cd;&#x3b8;&#x3b5;&#x3c1;&#x3b7; &#x395;&#x3c0;&#x3b9;&#x3bb;&#x3bf;&#x3b3;&#x3ae; &#x392;"/>
+            <StringItem index="60" value="&#x3a1;&#x3b1;&#x3b4;&#x3b9;&#x3bf;&#x3c4;&#x3b7;&#x3bb;&#x3b5;&#x3bf;&#x3c0;&#x3c4;&#x3b9;&#x3ba;&#x3ae; &#x3a0;&#x3b1;&#x3c1;&#x3b1;&#x3b3;&#x3c9;&#x3b3;&#x3ae;"/>
+            <StringItem index="61" value="&#x39f;&#x3c1;&#x3b3;&#x3ac;&#x3bd;&#x3c9;&#x3c3;&#x3b7; &#x394;&#x3b5;&#x3b4;&#x3bf;&#x3bc;&#x3ad;&#x3bd;&#x3c9;&#x3bd; &#x3ba;&#x3b1;&#x3b9; &#x395;&#x3be;&#x3cc;&#x3c1;&#x3c5;&#x3be;&#x3b7; &#x3a0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3af;&#x3b1;&#x3c2;"/>
+            <StringItem index="62" value="&#x394;&#x3b9;&#x3b1;&#x3b4;&#x3b9;&#x3ba;&#x3c4;&#x3c5;&#x3b1;&#x3ba;&#x3ad;&#x3c2; &#x3a5;&#x3c0;&#x3b7;&#x3c1;&#x3b5;&#x3c3;&#x3af;&#x3b5;&#x3c2; &#x3a0;&#x3c1;&#x3bf;&#x3c3;&#x3c4;&#x3b9;&#x3b8;&#x3ad;&#x3bc;&#x3b5;&#x3bd;&#x3b7;&#x3c2; &#x391;&#x3be;&#x3af;&#x3b1;&#x3c2;"/>
+            <StringItem index="63" value="&#x391;&#x3bd;&#x3ac;&#x3c0;&#x3c4;&#x3c5;&#x3be;&#x3b7; &#x39f;&#x3bb;&#x3bf;&#x3ba;&#x3bb;&#x3b7;&#x3c1;&#x3c9;&#x3bc;&#x3ad;&#x3bd;&#x3c9;&#x3bd; &#x3a0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3b9;&#x3b1;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="64" value="&#x395;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ad;&#x3c2; &#x395;&#x3bd;&#x3c3;&#x3c9;&#x3bc;&#x3b1;&#x3c4;&#x3c9;&#x3bc;&#x3ad;&#x3bd;&#x3c9;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd;"/>
+            <StringItem index="65" value="&#x3a1;&#x3bf;&#x3bc;&#x3c0;&#x3bf;&#x3c4;&#x3b9;&#x3ba;&#x3ae;"/>
+            <StringItem index="66" value="&#x391;&#x3a0;&#x395; &#x3ba;&#x3b1;&#x3b9; &#x395;&#x3c5;&#x3c6;&#x3c5;&#x3ae; &#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3b9;&#x3ba;&#x3ac; &#x394;&#x3af;&#x3ba;&#x3c4;&#x3c5;&#x3b1;"/>
+            <StringItem index="67" value="&#x391;&#x3c0;&#x3c4;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x394;&#x3b9;&#x3b5;&#x3c0;&#x3b1;&#x3c6;&#x3ad;&#x3c2;"/>
+            <StringItem index="68" value="&#x392;&#x3b9;&#x3bf;&#x3ca;&#x3b1;&#x3c4;&#x3c1;&#x3b9;&#x3ba;&#x3ae; &#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b1;"/>
+            <StringItem index="69" value="&#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x39c;&#x3b5;&#x3c4;&#x3c1;&#x3ae;&#x3c3;&#x3b5;&#x3c9;&#x3bd; &#x3a5;&#x3c0;&#x3bf;&#x3b2;&#x3bf;&#x3b7;&#x3b8;&#x3bf;&#x3cd;&#x3bc;&#x3b5;&#x3bd;&#x3c9;&#x3bd; &#x3b1;&#x3c0;&#x3cc; &#x397;/&#x3a5;"/>
+            <StringItem index="70" value="&#x391;&#x3c3;&#x3c6;&#x3ac;&#x3bb;&#x3b5;&#x3b9;&#x3b1; &#x394;&#x3b9;&#x3ba;&#x3c4;&#x3cd;&#x3c9;&#x3bd; &#x3ba;&#x3b1;&#x3b9; &#x395;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3b9;&#x3ce;&#x3bd;"/>
+            <StringItem index="71" value="&#x394;&#x3b9;&#x3ba;&#x3c4;&#x3cd;&#x3c9;&#x3c3;&#x3b7; &#x39a;&#x3b1;&#x3b8;&#x3bf;&#x3c1;&#x3b9;&#x3c3;&#x3bc;&#x3ad;&#x3bd;&#x3b7; &#x3b1;&#x3c0;&#x3cc; &#x39b;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3bc;&#x3b9;&#x3ba;&#x3cc;"/>
+            <StringItem index="72" value="&#x395;&#x3b9;&#x3b4;&#x3b9;&#x3ba;&#x3ac; &#x398;&#x3ad;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x394;&#x3b9;&#x3ba;&#x3c4;&#x3cd;&#x3c9;&#x3bd; (CCNA) 2"/>
+            <StringItem index="73" value="&#x394;&#x3bf;&#x3c1;&#x3c5;&#x3c6;&#x3bf;&#x3c1;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x395;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3af;&#x3b5;&#x3c2;"/>
+            <StringItem index="74" value="&#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3b1; &#x3a0;&#x3bf;&#x3bb;&#x3c5;&#x3bc;&#x3ad;&#x3c3;&#x3c9;&#x3bd;"/>
+            <StringItem index="75" value="&#x391;&#x3bd;&#x3ac;&#x3c0;&#x3c4;&#x3c5;&#x3be;&#x3b7; &#x394;&#x3b9;&#x3b1;&#x3b4;&#x3b9;&#x3ba;&#x3c4;&#x3c5;&#x3b1;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd; &#x3ba;&#x3b1;&#x3b9; &#x395;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ce;&#x3bd;"/>
+            <StringItem index="76" value="&#x395;&#x3c0;&#x3b9;&#x3c7;&#x3b5;&#x3b9;&#x3c1;&#x3b7;&#x3c3;&#x3b9;&#x3b1;&#x3ba;&#x3ae; &#x388;&#x3c1;&#x3b5;&#x3c5;&#x3bd;&#x3b1;"/>
+            <StringItem index="77" value="&#x391;&#x3bd;&#x3ac;&#x3ba;&#x3c4;&#x3b7;&#x3c3;&#x3b7; &#x3a0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3b9;&#x3ce;&#x3bd; &#x2013; &#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3ad;&#x3c2; &#x391;&#x3bd;&#x3b1;&#x3b6;&#x3ae;&#x3c4;&#x3b7;&#x3c3;&#x3b7;&#x3c2;"/>
+            <StringItem index="78" value="&#x394;&#x3b9;&#x3b1;&#x3c7;&#x3b5;&#x3af;&#x3c1;&#x3b9;&#x3c3;&#x3b7; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x3a5;&#x3c0;&#x3b7;&#x3c1;&#x3b5;&#x3c3;&#x3b9;&#x3ce;&#x3bd; DBMS"/>
+            <StringItem index="79" value="&#x395;&#x3c5;&#x3c6;&#x3c5;&#x3ae; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1;"/>
+            <StringItem index="80" value="&#x3a0;&#x3c1;&#x3bf;&#x3b7;&#x3b3;&#x3bc;&#x3ad;&#x3bd;&#x3b1; &#x398;&#x3ad;&#x3bc;&#x3b1;&#x3c4;&#x3b1; &#x3a4;&#x3b5;&#x3c7;&#x3bd;&#x3b7;&#x3c4;&#x3ae;&#x3c2; &#x39d;&#x3bf;&#x3b7;&#x3bc;&#x3bf;&#x3c3;&#x3cd;&#x3bd;&#x3b7;&#x3c2;"/>
+            <StringItem index="81" value="&#x3a0;&#x3c1;&#x3bf;&#x3b7;&#x3b3;&#x3bc;&#x3ad;&#x3bd;&#x3b7; &#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3b9;&#x3ba;&#x3ae; &#x39c;&#x3ac;&#x3b8;&#x3b7;&#x3c3;&#x3b7;"/>
+            <StringItem index="82" value="&#x39a;&#x3b1;&#x3c4;&#x3b1;&#x3bd;&#x3b5;&#x3bc;&#x3b7;&#x3bc;&#x3ad;&#x3bd;&#x3b1; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3b1;"/>
+            <StringItem index="83" value="&#x3a3;&#x3b7;&#x3bc;&#x3b1;&#x3c3;&#x3b9;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3b9;&#x3ba;&#x3cc;&#x3c2; &#x399;&#x3c3;&#x3c4;&#x3cc;&#x3c2;"/>
+            <StringItem index="84" value="&#x393;&#x3c1;&#x3b1;&#x3c6;&#x3b9;&#x3ba;&#x3ac; &#x3a5;&#x3c0;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3b9;&#x3c3;&#x3c4;&#x3ce;&#x3bd;"/>
+            <StringItem index="85" value=" "/>
+            <StringItem index="86" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AM_Foititi_Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x391;&#x39c;_&#x3a6;&#x3bf;&#x3b9;&#x3c4;&#x3b7;&#x3c4;&#x3ae;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Arxikos_Vathmos_Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x391;&#x3c1;&#x3c7;&#x3b9;&#x3ba;&#x3cc;&#x3c2; &#x392;&#x3b1;&#x3b8;&#x3bc;&#x3cc;&#x3c2;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SHOW_Arxikos_Vathmos_Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="  "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Submit_Button">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x3a5;&#x3a0;&#x39f;&#x392;&#x39f;&#x39b;&#x397;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Submit_ButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AM_Foititi_TextBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x392;&#x3ac;&#x3bb;&#x3b5; &#x391;&#x39c; &#x3a6;&#x3bf;&#x3b9;&#x3c4;&#x3b7;&#x3c4;&#x3ae;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
